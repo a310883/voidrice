@@ -26,6 +26,12 @@ set mouse=a
 set nohlsearch
 set clipboard+=unnamedplus
 
+" My programming shit
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set comments=sl:/*,mb:\ *,elx:\ */
+
 " Some basics:
 	nnoremap c "_c
 	set nocompatible

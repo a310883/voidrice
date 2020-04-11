@@ -2,7 +2,7 @@
 pcm.usb
 {
     type hw
-    card Microphone
+    card PCH
 }
 pcm.!default
 {

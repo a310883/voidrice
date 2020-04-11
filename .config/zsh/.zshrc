@@ -15,6 +15,15 @@ compinit
 # Include hidden files in autocomplete:
 _comp_options+=(globdots)
 
+#History
+HISTFILE="$HOME/.config/zsh/.zsh_history"
+HISTSIZE=10000
+SAVEHIST=10000
+setopt INC_APPEND_HISTORY
+setopt SHARE_HISTORY
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_FIND_NO_DUPS
+
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
