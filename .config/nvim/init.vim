@@ -125,3 +125,5 @@ set comments=sl:/*,mb:\ *,elx:\ */
 if &diff
     highlight! link DiffText MatchParen
 endif
+" Auto recompile dwmblocks
+    autocmd BufWritePost ~/.local/src/dwmblocks/config.h !cd ~/.local/src/dwmblocks/; sudo make install && { killall -q dwmblocks;setsid dwmblocks & }
