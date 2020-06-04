@@ -16,3 +16,4 @@ inode/directory=file.desktop
 
 [Added Associations]
 text/html=firefox.desktop;
+application/x-httpd-php=text.desktop;
