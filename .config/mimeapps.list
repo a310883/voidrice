@@ -13,6 +13,7 @@ application/rss+xml=rss.desktop
 video/x-matroska=video.desktop
 x-scheme-handler/lbry=lbry.desktop
 inode/directory=file.desktop
+x-scheme-handler/fcade=fcade-quark.desktop
 
 [Added Associations]
 text/html=firefox.desktop;
