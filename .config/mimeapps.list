@@ -19,3 +19,4 @@ x-scheme-handler/fcade=fcade-quark.desktop
 text/html=firefox.desktop;
 application/x-httpd-php=text.desktop;
 application/x-bibtex=text.desktop;
+application/x-research-info-systems=text.desktop;
